@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <!-- <h1 class="bg-blue-700">HOME</h1> -->
+    <!-- <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <h1>HOME</h1>
+          
+    </nav> -->
+
+    <nav id="navegacion" class="fixed bg-blue-900 h-16 top-0 right-0 left-0 flex justify-between px-4 items-center">
+        
+    </nav>
+
+    <div
+        class="pt-4 h-screen flex justify-center items-center flex-col md:flex-row gap-4 px-4 lg:w-3/5 mx-auto md:gap-8">
+        <h1 class="text-blue-700 font-bold text-4xl md:text-7xl">Restaurant App</h1>
+        <div>
+            <p class="text-justify py-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem similique voluptatem quaerat odio
+                adipisci necessitatibus quae fugit numquam accusantium pariatur a quos exercitationem voluptatibus
+                labore deleniti, sequi ullam? Tenetur, dolor?</p>
+            <div class="flex justify-around gap-4">
+                <a href="/login"
+                    class="text-white bg-blue-950 text-2xl px-4 py-2 font-bold rounded-lg hover:bg-blue-700 transition ease-in-out delay-150">Login</a>
+                <a href="/registro"
+                    class="text-black bg-blue-600 text-2xl px-4 py-2 font-bold rounded-lg hover:bg-blue-300 transition ease-in-out delay-150">Registro</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="../components/nav.js"></script>
+    <script src="index.js"></script>
+    <script type="module" src="../components/notificaciones.js"></script>
+</body>
+
+</html>

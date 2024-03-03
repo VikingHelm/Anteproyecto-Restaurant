@@ -1,0 +1,26 @@
+#cerrarBtn {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    display: block;
+    background-color: #dc2626;
+    border-radius: .5rem;
+    
+}
+
+#cerrarBtn:hover {
+    background-color: #9a2727;
+    color: #ffffff;
+}
+
+#cerrarBtnPosition {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}

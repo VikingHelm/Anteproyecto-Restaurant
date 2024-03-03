@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "name": "Test Slave",
+      "email": "123@gmail.com",
+      "password": "Slave123456$",
+      "role": "mesero",
+      "id": 1
+    },
+    {
+      "name": "Test Admin",
+      "email": "123456@gmail.com",
+      "password": "Admin123456$",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "name": "123",
+      "email": "fer@gmail.com",
+      "password": "Slave123456$",
+      "role": "mesero",
+      "id": 3
+    },
+    {
+      "name": "Fer",
+      "email": "fernando@gmail.com",
+      "password": "DataCheck1$",
+      "role": "mesero",
+      "id": 4
+    }
+  ],
+  "menu": [
+    {
+      "nombre": "Pizza pequeña",
+      "precio": "9",
+      "categoria": "4",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza mediana",
+      "precio": 15,
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Pizza grande",
+      "precio": 20,
+      "categoria": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Pie de limón",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "nombre": "Pie de parchita",
+      "precio": "6",
+      "categoria": "1",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "nombre": "Torta de chocolate",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Torta de fresa",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Jugo de fresa",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Jugo de naranja",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Jugo de parchita",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 11,
+      "nombre": "Chuleta ahumada",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 12,
+      "nombre": "Pollo en brasa",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 13,
+      "nombre": "Carne en vara",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 14,
+      "nombre": "Cafe",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 15,
+      "nombre": "Latte vainilla",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 16,
+      "nombre": "Capuchino",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 17,
+      "nombre": "Helado de chocolate",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 18,
+      "nombre": "Helado de fresa",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 19,
+      "nombre": "Helado de mantecado",
+      "precio": 2,
+      "categoria": 2
+    }
+  ],
+  "cliente": []
+}

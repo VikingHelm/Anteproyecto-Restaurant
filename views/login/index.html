@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <!-- <h1 class="bg-blue-700">HOME</h1> -->
+    <!-- <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <h1>LOGIN</h1>
+    </nav> -->
+
+    <nav id="navegacion" class="fixed bg-blue-900 h-16 top-0 right-0 left-0 flex justify-between px-4 items-center"></nav>
+
+    
+
+    <div class="pt-16 h-screen flex max-w-7xl mx-auto justify-center items-center px-4 ">
+        <form id="formulario" class="flex flex-col bg-blue-600 p-6 text-lg gap-4 shadow-xl
+    <!-- Para pantallas grandes, mostrar en 2/4 de pantalla:--> lg: w-2/4">
+            
+            <div class="flex flex-col gap-2">
+                <label for="email-input" class="font-bold">
+                    Email: <span class="text-red-500">*</span>
+                </label>
+                <input type="email" id="email-input" autocomplete="on" placeholder="nando@gmail.com"
+                    class="rounded-lg focus:outline-blue-600 p-2">
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="password-input" class="font-bold">
+                    Contraseña: <span class="text-red-500">*</span>
+                </label>
+                <input type="password" id="password-input" autocomplete="on"
+                    class="rounded-lg focus:outline-blue-600 p-2">
+            </div>
+        
+
+            <button id="form-btn" disabled
+                class="flex justify-center bg-blue-700 text-2xl px-4 py-2 font-bold rounded-lg hover:bg-blue-700 transition ease-in-out delay-150 disabled disabled:opactiy-40 disabled:cursor-not-allowed">
+                Ingresar
+            </button>
+        </form>
+    </div>
+
+    <p class="notificacion bg-red-800 text-white p-5 text-center"></p>
+
+
+    <script src="../components/nav.js"></script>
+    <script type="module" src="../components/notifications.js"></script>
+    <script src="login.js"></script>
+
+</body>
+</html>

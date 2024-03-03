@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <nav id="navegacion" class="bg-blue-900 h-16 top-0 right-0 left-0 flex justify-between px-4 items-center">
+    </nav>
+
+    <div id="notificacion"></div>
+
+   
+
+    <div class="pt-16 h-screen flex max-w-7xl mx-auto justify-center items-center px-4 ">
+        <form id="formulario" class="flex flex-col bg-blue-600 p-6 text-lg gap-4 shadow-xl
+    <!-- Para pantallas grandes, mostrar en 2/4 de pantalla:--> lg: w-2/4">
+            <div class="flex flex-col gap-2">
+                <label for="name-input" class="font-bold">
+                    Nombre: <span class="text-red-500">*</span>
+                </label>
+                <input type="text" id="name-input" autocomplete="off" placeholder="Fernando Vera"
+                    class="rounded-lg focus:outline-blue-600 p-2">
+                <p class="text-xs">El nombre y el apellido deben comenzar con mayúscula.</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="email-input" class="font-bold">
+                    Email: <span class="text-red-500">*</span>
+                </label>
+                <input type="email" id="email-input" autocomplete="off" placeholder="nando@gmail.com"
+                    class="rounded-lg focus:outline-blue-600 p-2">
+                <p class="text-xs">El correo es obligatorio.</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="password-input" class="font-bold">
+                    Contraseña: <span class="text-red-500">*</span>
+                </label>
+                <input type="password" id="password-input" autocomplete="off"
+                    class="rounded-lg focus:outline-blue-600 p-2">
+                <p class="text-xs">Debe tener al menos una letra mayúscula, una letra minúscula, números, carácteres
+                    especiales, debe tener entre 8-16 caracteres.</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="match-input" class="font-bold">
+                    Confirmar contraseña: <span class="text-red-500">*</span>
+                </label>
+                <input type="password" id="match-input" class="rounded-lg focus:outline-blue-600 p-2">
+                <p class="text-xs">Debe coincidir con la contraseña.</p>
+            </div>
+
+            <button id="form-btn"
+                class="flex justify-center bg-blue-700 text-2xl px-4 py-2 font-bold rounded-lg hover:bg-blue-700 transition ease-in-out delay-150  disabled:opactiy-40 disabled:cursor-not-allowed">
+                Registrar
+            </button>
+        </form>
+        <div>
+            <img src="/img/registro.svg" alt="register">
+        </div>
+    </div>
+
+    <script type="module" src="registro.js"></script>
+    <script src="../components/nav.js"></script>
+    <script type="module" src="../components/notifications.js"></script>
+
+</body>
+
+</html>
